@@ -8,5 +8,5 @@ setup(
     author_email='Dozent10123@gmail.com',
     packages=find_namespace_packages(),
     install_requires=['markdown'],
-    entry_points={'console_scripts': ['clean_folder= clean_folder.clean:clean_folder']}
+    entry_points={'console_scripts': ['clean_folder= clean_folder.clean:path_function']}
 )
